@@ -12,6 +12,8 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
+  import CustomCarousel from '../components/CustomCarousel';
+
 export default class Home extends React.Component {
   constructor(props) {
     super(props);
@@ -61,6 +63,7 @@ export default class Home extends React.Component {
           </Collapse>
         </Navbar>
         <h1>I Love you Mariah</h1>
+        <CustomCarousel />>
       </div>
     );
   }
